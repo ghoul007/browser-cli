@@ -1,0 +1,1 @@
+[ 'goto https://www.google.com', 'wait 1s', 'goto https://wikipedia.com', 'wait 2s', "type #searchInput puppetter", 'click button[type="submit"]', ]

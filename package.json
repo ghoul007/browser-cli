@@ -1,0 +1,21 @@
+{
+  "name": "browser-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "./index.js",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "ms": "^2.1.2",
+    "puppeteer": "^3.0.0",
+    "semantic-release-cli": "^5.2.3",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
