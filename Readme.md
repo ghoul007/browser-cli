@@ -6,7 +6,7 @@
 
 using npm:
 ```
-npm i browser-cli
+npm i browser-control
 
 ```
 
@@ -22,5 +22,5 @@ you can pass a list of commands to this mehtod:
 ## Example
 
 ```
-browser-cli --list "goto https://www.google.com, wait 1s"
+browser-control --list "goto https://www.google.com, wait 1s"
 ```
