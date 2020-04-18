@@ -15,8 +15,18 @@
   "scripts": {
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branch": "master"
+  },
   "keywords": ["puppeteer", "browser", "control"],
-  "author": "",
+  "author": "Ahmed GHOUL",
   "license": "ISC",
   "repository": {
     "type": "git",
