@@ -4,12 +4,21 @@
   "description": "",
   "bin": "./index.js",
   "main": "index.js",
-  "devDependencies": {
+  "dependencies": { 
     "commander": "^5.0.0",
     "ms": "^2.1.2",
     "puppeteer": "^3.0.0",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/commit-analyzer": "8.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/npm": "7.0.5",
+    "@semantic-release/release-notes-generator": "9.0.1",
     "semantic-release-cli": "^5.2.3",
-    "signale": "^1.4.0",
     "semantic-release": "^17.0.6"
   },
   "scripts": {
