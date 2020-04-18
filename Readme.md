@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ghoul007/browser-cli.svg?branch=master)](https://travis-ci.org/ghoul007/browser-cli)
+
 ## Browser Cli
 
  Control a browser with CLI, like this
