@@ -5,8 +5,8 @@ node_js:
 cache:
   directories:
     - node_modules
-env:
-  ci: true
+# env:
+#   ci: true
 
 before_install:
   - npm i
@@ -18,7 +18,6 @@ jobs:
       node_js: lts/*
       script:
         - npx semantic-release
-      on: master
 
       # Advanced: optionally overwrite your default `script` step to skip the tests
       # script: skip
