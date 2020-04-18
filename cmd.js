@@ -1,4 +1,6 @@
 const { success, debug, complete, pending } = require('signale');
+const ms = require('ms');
+const wait = ms => new Promise((resolve) => setTimeout(resolve, ms));
 
 module.exports.cmd = async (page, command) => {
 

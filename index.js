@@ -2,12 +2,12 @@
 
 const puppeteer = require('puppeteer');
 const { success, debug, complete, pending } = require('signale');
-const ms = require('ms');
+
 const { program } = require('commander');
 const {cmd} =  require("./cmd");
 
 
-const wait = ms => new Promise((resolve) => setTimeout(resolve, ms));
+
 const init = async () => {
     try {
 
