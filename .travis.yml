@@ -8,8 +8,9 @@ node_js:
 # env:
 #   ci: true
 
-before_install:
-  - npm i
+
+install:
+  - yarn install
 
 jobs:
   include:
